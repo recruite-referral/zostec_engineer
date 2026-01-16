@@ -20,14 +20,14 @@
   --font-family: var(--inter), var(--noto-sans), sans-serif;
   /* ---mono-color--- */
   --white: #fff;
-  --navy: #0f1930;
-  --black: #0f1930;
-  --text-color: #0f1930;
+  --navy: #2d5787;
+  --black: #2d5787;
+  --text-color: #2d5787;
 
   /* Hybrid Color Scheme */
-  --orange: #00bcd4;
+  --orange: #ec614c;
   /* Cyan (Main Color) */
-  --red: #FF6B35;
+  --red: #ec614c;
   /* Accent Orange */
   --pink-light: #f0f8ff;
   --pink-bg: #e0f7fa;
@@ -555,8 +555,19 @@ section {
   line-height: 1.4;
   margin-bottom: 0;
   white-space: normal;
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   font-feature-settings: "palt";
+  color: var(--navy);
+  font-weight: var(--font-weight-bold);
+}
+
+.highlight-text {
+  color: var(--red);
+  font-size: 3.2rem;
+  display: block;
+  margin: 0.5rem 0;
+  transform: scale(1.1);
+  display: inline-block;
 }
 
 .message-sub-text {
